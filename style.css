@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.title {
+    font-size: 70px;
+    font-weight: 400;
+    padding-bottom: 10px;
+}
+
+.smaller {
+    font-size: 30px;
+}
+
+.container {
+    margin-left: 4em;
+    margin-top: 2em;
+}
+
+.pyramids {
+    position: absolute;
+    height: 100%;
+    right: 0px;
+    top: 0px;
+}
+
+.output {
+    width: 45%;
+    height: 40%;
+    font-size: 24px;
+    resize: none;
+}
+
+button {
+    font-size: 20px;
+    height: 2em;
+}
+
+.correct, .correct:focus {
+    background-color: #b2ec8b;
+}
+
+.incorrect, .incorrect:focus {
+    background-color: #fd6a65;
+}
+
+#word {
+    width: 35%;
+    height: 3em;
+}
